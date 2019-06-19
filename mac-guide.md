@@ -31,13 +31,13 @@ java --version
 
 ### 1. Oracle 페이지 접속
 
-https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 ---
 
 ### 2. JDK 다운로드
 
-[Java SE Development Kit 12.0.1]에서 1번과 같이 [Accept License Agreement]를 선택한 후 MacOS 설치
+[Java SE Development Kit 8u211]에서 1번과 같이 [Accept License Agreement]를 선택한 후 MacOS 설치
 
 ![](./images/mac1.png)
 

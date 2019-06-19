@@ -33,15 +33,17 @@ cmd에서
 
 ### 1. Oracle 페이지 접속
 
-https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 ### 2. JDK 다운로드
 
-[Java SE Development Kit 12.0.1]에서 1번과 같이 [Accept License Agreement]를 선택한 후 windows 설치
+[Java SE Development Kit 8u211]에서 1번과 같이 [Accept License Agreement]를 선택한 후 windows x64 설치
 
 ![](./images/mac1.png)
 
-(exe, zip 둘 중 어느 것을 택하셔도 무관합니다.)
+**(컴퓨터가 32bit 운영체제인 경우 Windows x86을 설치해주세요. 이는 [내 PC] - [속성] - [시스템]에서 확인할 수 있습니다.)**
+
+![](./images/window13.png)
 
 ---
 
@@ -75,13 +77,13 @@ JAVA_HOME 환경변수를 추가해 줄 것입니다.
 JAVA_HOME 변수가 있고 변수 값이 존재한다면 
 
 ~~~
-;C:\Program Files\Java\jdk-12.0.1
+;C:\Program Files\Java\jdk-1.8.0_211
 ~~~
 
 존재하지 않는다면 변수 이름에 JAVA_HOME을 입력하고
 
 ~~~
-C:\Program Files\Java\jdk-12.0.1
+C:\Program Files\Java\jdk-1.8.0_211
 ~~~
 
 ![](./images/window4.png)
