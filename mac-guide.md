@@ -15,27 +15,47 @@
 
 ## **!! 안드로이드 핸드폰을 소유하고 계시다면 4번 과정을 소유하고 있지 않으시다면 3번 과정을 진행해주세요.**
 
+---
+
 ## 1. JDK 설치 
 
 안드로이드는 Java(Kotlin), xml을 사용하여 코딩합니다. 따라서 JDK를 설치하여야 합니다.
 
-#### 1. Oracle 페이지 접속
+**PC에 Java가 이미 설치되어있다면 이 과정을 뛰어넘으셔도 됩니다.**
+
+터미널 창을 열어 아래와 같이 입력하였을 때 
+```
+java --version
+```
+다음과 같이 나오면 설치가 되어있는 것입니다.
+
+![](./images/mac3.png)
+
+---
+
+### 1. Oracle 페이지 접속
 
 https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
 
-#### 2. JDK 다운로드
+---
+
+### 2. JDK 다운로드
 
 [Java SE Development Kit 12.0.1]에서 1번과 같이 [Accept License Agreement]를 선택한 후 MacOS 설치
 
 ![](./images/mac1.png)
 
-#### 3. JDK 설치
+---
+
+### 3. JDK 설치
 
 dmg파일 안의 pkg파일을 더블 클릭하여 JDK를 설치해줍니다.
 
 ![](./images/mac2.png)
 
-#### 4. JDK 설치 확인
+---
+
+### 4. JDK 설치 확인
 
 터미널 창을 열어 아래와 같이 입력하였을 때 
 ```
@@ -49,7 +69,7 @@ java --version
 
 안드로이드는 주로 Intelli J 기반 IDE Android Studio를 통해서 프로젝트를 진행합니다. Android Studio는 레이아웃 미리보기, 여러 편리한 단축키를 제공하므로 설치해보도록 하겠습니다.
 
-#### 1. developer.android 접속
+### 1. developer.android 접속
 
 https://developer.android.com/studio/
 
@@ -59,7 +79,9 @@ https://developer.android.com/studio/
 
 팝업된 창에서 안내되는 policy를 동의한 후 [DOWNLOAD ANDROID STUDIO FOR MAC]을 클릭해줍니다.
 
-#### 2. Android Studio 설치
+---
+
+### 2. Android Studio 설치
 
 다운받은 dmg파일을 통해 Android Studio를 설치해줍니다. 아래 화면에서 Android Studio 아이콘을 Applications 폴더로 드래그 & 드랍 해줍니다.
 
@@ -77,17 +99,21 @@ Applications 폴더 안 Android Studio 더블 클릭시 설치가 진행됩니�
 
 ![](./images/mac6.png)
 
-#### 1. Android Virtual Device Manager
+### 1. Android Virtual Device Manager
 
 Android Studio에서 [Tools] - [AVD Manager]를 선택해줍니다. 또는 메뉴바에서 아래 아이콘을 클릭합니다.
 
 ![](./images/mac7.png)
 
-#### 2. Emulator 설치
+---
+
+### 2. Emulator 설치
 
 팝업된 창에서 [Create Virtual Device..]를 클릭한 후 필요한 핸드폰 기종[Pixel 2]을 선택한 후 [Next]를 클릭합니다.
 
-다음 Android SDK Version 선택화면에서 필요한 버전[Pie]을 선택하고 버전에 download가 있다면 클릭하여 필요 sdk를 설치해줍니다.
+---
+
+다음 Android Image 선택화면에서 필요한 버전[Pie]을 선택하고 버전에 download가 있다면 클릭하여 필요 Image를 설치해줍니다.
 
 ![](./images/mac8.png)
 
@@ -99,7 +125,7 @@ Android Studio에서 [Tools] - [AVD Manager]를 선택해줍니다. 또는 메�
 
 - 본 안내서는 Galaxy 핸드폰을 기준으로 작성되었습니다.
 
-#### 1. Android 개발자 모드 활성화
+### 1. Android 개발자 모드 활성화
 
 설정 앱 또는 기기 상단의 Notification Bar의 아래 아이콘을 통해 Android 설정을 열어줍니다.
 
@@ -109,19 +135,27 @@ Android Studio에서 [Tools] - [AVD Manager]를 선택해줍니다. 또는 메�
 
 ![](./images/mac10.png)
 
+---
+
 [소프트웨어 정보] 메뉴를 터치해줍니다.
 
+---
+
 [빌드 번호]를 [개발자 모드가 활성화되었습니다.] 라는 메시지가 뜰 때까지 연달아 터치해줍니다.
+
+---
 
 [설정] 제일 처음 화면([휴대전화 정보] 메뉴가 있는 화면)까지 나오면 아래와 같이 [개발자 옵션] 메뉴가 추가되어 있습니다.
 
 ![](./images/mac11.png)
 
-#### 2. USB 디버깅 허용
+### 2. USB 디버깅 허용
 
 [개발자 옵션]을 터치하면 아래와 같이 디버깅 파트에 [USB 디버깅]이 있습니다. 활성화 해줍니다.
 
 ![](./images/mac12.png)
+
+---
 
 컴퓨터와 핸드폰을 연결하였을 때 아래와 같은 화면이 표시되면 [이 컴퓨터에서 항상 허용]을 선택한 후 확인을 선택해줍니다.
 
