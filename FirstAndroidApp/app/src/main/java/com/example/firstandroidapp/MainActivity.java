@@ -12,11 +12,10 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
-
-    @BindView(R.id.editText)
-    EditText editText;
-
     public final static String EXTRA_NAME = "name";
+
+    @BindView(R.id.edit_text)
+    EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,23 +25,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean isValid(String name) {
-        if(name.length() != 2)
+        if(name.length() != 2) {
             return false;
+        }
 
-        if(StringUtil.isKorean(name) == false)
+        if(StringUtil.isKorean(name) == false) {
             return false;
+        }
 
         return true;
     }
 
-    @OnClick(R.id.seeResultBtn)
+    @OnClick(R.id.button_result)
     public void onSeeResultBtnClicked() {
         String nameStr = editText.getText().toString();
 
         if(nameStr.equals("")) {
-            Toast.makeText(this, getString(R.string.inputName), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.msg_input_name), Toast.LENGTH_SHORT).show();
         } else if(isValid(nameStr) == false) {
-            Toast.makeText(this, getString(R.string.errorMsg), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.error_invalid_name), Toast.LENGTH_SHORT).show();
         } else {
             startActivity(new Intent(this, ResultActivity.class).putExtra(EXTRA_NAME, nameStr));
         }

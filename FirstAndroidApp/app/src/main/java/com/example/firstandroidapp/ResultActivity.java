@@ -14,11 +14,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class ResultActivity extends AppCompatActivity {
-
-    final static String TAG = ResultActivity.class.getSimpleName();
-
-    @BindView(R.id.resultTV)
-    TextView resultTV;
+    @BindView(R.id.text_result)
+    TextView resultText;
 
     String nameStr;
 
@@ -62,17 +59,17 @@ public class ResultActivity extends AppCompatActivity {
         for(int i = 0; i < nameStr.length(); i++) {
             initialStr += StringUtil.getInitialSound(nameStr.charAt(i));
         }
-        Log.d(TAG, initialStr+"aaa");
 
         String result = quizMap.get(initialStr);
 
-        if(result == null)
-            resultTV.setText(getString(R.string.noResult));
-        else
-            resultTV.setText(result);
+        if(result == null) {
+            resultText.setText(getString(R.string.error_no_result));
+        } else {
+            resultText.setText(result);
+        }
     }
 
-    @OnClick(R.id.backBtn)
+    @OnClick(R.id.button_back)
     public void onBackBtnClicked() {
         finish();
     }

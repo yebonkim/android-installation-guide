@@ -3,7 +3,6 @@ package com.example.firstandroidapp;
 public class StringUtil {
     private static final char KOREAN_BEGIN_UNICODE = 44032;
     private static final char KOREAN_LAST_UNICODE = 55203;
-
     private static final char KOREAN_BASE_UNIT = 588;
 
     private static final char[] INITIAL_SOUND =
@@ -24,10 +23,8 @@ public class StringUtil {
     }
 
     public static char getInitialSound(char c){
-        int hanBegin = (c - KOREAN_BEGIN_UNICODE);
+        int hanBegin = c - KOREAN_BEGIN_UNICODE;
         int index = hanBegin / KOREAN_BASE_UNIT;
         return INITIAL_SOUND[index];
     }
-
-
 }
