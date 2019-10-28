@@ -1,5 +1,7 @@
 # Android 개발환경 설정 for MAC🍎
 
+(이 가이드는 2019/06/22를 기준으로 작성되었습니다. 혹시 설치가 안된다면 이슈를 남겨주세요!) 
+
 ## 설치 순서
 
 ### 1. JDK 설치
@@ -39,6 +41,8 @@ https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.
 
 [Java SE Development Kit 8u211]에서 1번과 같이 [Accept License Agreement]를 선택한 후 MacOS 설치
 
+(Android는 2019/10/28 기준으로 JAVA8을 사용하고 있기 때문에 꼭 해당 버전이 아니더라도 Java8인 버전을 다운받으시길 바랍니다)
+
 ![](./images/mac1.png)
 
 ---
@@ -63,7 +67,7 @@ java --version
 
 ## 2. Android Studio 설치
 
-안드로이드는 주로 Intelli J 기반 IDE Android Studio를 통해서 프로젝트를 진행합니다. Android Studio는 레이아웃 미리보기, 여러 편리한 단축키를 제공하므로 설치해보도록 하겠습니다.
+안드로이드는 주로 Intelli J 기반 IDE, Android Studio를 통해서 프로젝트를 진행합니다. Android Studio는 레이아웃 미리보기, 여러 편리한 단축키 등을 제공하므로 설치해보도록 하겠습니다.
 
 ### 1. developer.android 접속
 
