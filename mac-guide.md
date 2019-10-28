@@ -41,7 +41,7 @@ https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.
 
 [Java SE Development Kit 8u211]에서 1번과 같이 [Accept License Agreement]를 선택한 후 MacOS 설치
 
-(Android는 2019/10/28 기준으로 JAVA8을 사용하고 있기 때문에 꼭 해당 버전이 아니더라도 Java8인 버전을 다운받으시길 바랍니다)
+(Android는 JAVA8을 사용하고 있기 때문에 꼭 해당 버전이 아니더라도 Java8인 버전을 다운받으시길 바랍니다)
 
 ![](./images/mac1.png)
 
