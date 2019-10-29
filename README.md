@@ -18,6 +18,8 @@
 
 ### [설치 가이드 for window](./window-guide.md)
 
+### [Android 시작 전에 알아야 할 기초지식(PDF)](https://bit.ly/2Ptff67)
+
 ---
 
 ## 설치가 끝난 후 첫 안드로이드 프로젝트를 만들어 보실 수 있도록 간단한 샘플 프로젝트(JAVA)를 포함해두었습니다!
