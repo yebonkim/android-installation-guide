@@ -27,10 +27,13 @@
 ### 이름을 입력받아 미리 설정된 초성의 별명을 보여줍니다🤗
 
 #####  <메인 화면>
-<img src="./images/sample1.jpg" width = "40%" style="margin:auto; display:block">
-
+<p align="center">
+  <img src="./images/sample1.jpg" width = "40%" >
+</p>
 
 ##### <결과 화면>
-<img src="./images/sample2.jpg" width = "40%" style="margin:auto; display:block">
+<p align="center">
+  <img src="./images/sample2.jpg" width = "40%" >
+</p>
 
 ### 즐거운 안드로이드 개발되세요!
